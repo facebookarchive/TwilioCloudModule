@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74954F261644AF4200BA1AE7 /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74954F241644AF4200BA1AE7 /* AddFriendViewController.m */; };
+		74954F271644AF4200BA1AE7 /* AddFriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74954F251644AF4200BA1AE7 /* AddFriendViewController.xib */; };
+		7497BF321648366500099152 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7497BF311648366500099152 /* Default-568h@2x.png */; };
+		7497BF351648366F00099152 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7497BF341648366F00099152 /* Default@2x.png */; };
+		7497BF371648367300099152 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7497BF361648367300099152 /* Default.png */; };
+		74CF2016164488FD00336C42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CF2015164488FD00336C42 /* UIKit.framework */; };
+		74CF2018164488FD00336C42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CF2017164488FD00336C42 /* Foundation.framework */; };
+		74CF201A164488FD00336C42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CF2019164488FD00336C42 /* CoreGraphics.framework */; };
+		74CF2020164488FD00336C42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74CF201E164488FD00336C42 /* InfoPlist.strings */; };
+		74CF2022164488FD00336C42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CF2021164488FD00336C42 /* main.m */; };
+		74CF2026164488FD00336C42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CF2025164488FD00336C42 /* AppDelegate.m */; };
+		74CF204E16448A5B00336C42 /* FriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CF204D16448A5B00336C42 /* FriendsTableViewController.m */; };
+		74CF205D16448ABC00336C42 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CF204F16448ABC00336C42 /* Accounts.framework */; };
+		74CF205E16448ABC00336C42 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CF205016448ABC00336C42 /* AddressBook.framework */; };
+		74CF205F16448ABC00336C42 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CF205116448ABC00336C42 /* AddressBookUI.framework */; };
+		74CF206016448ABC00336C42 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CF205216448ABC00336C42 /* AudioToolbox.framework */; };
+		74CF206116448ABC00336C42 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CF205316448ABC00336C42 /* CFNetwork.framework */; };
+		74CF206216448ABC00336C42 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CF205416448ABC00336C42 /* CoreLocation.framework */; };
+		74CF206316448ABC00336C42 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CF205516448ABC00336C42 /* libsqlite3.dylib */; };
+		74CF206416448ABC00336C42 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CF205616448ABC00336C42 /* libz.1.1.3.dylib */; };
+		74CF206516448ABC00336C42 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CF205716448ABC00336C42 /* MobileCoreServices.framework */; };
+		74CF206616448ABC00336C42 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CF205816448ABC00336C42 /* QuartzCore.framework */; };
+		74CF206716448ABC00336C42 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CF205916448ABC00336C42 /* Security.framework */; };
+		74CF206816448ABC00336C42 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CF205A16448ABC00336C42 /* Social.framework */; };
+		74CF206916448ABC00336C42 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CF205B16448ABC00336C42 /* StoreKit.framework */; };
+		74CF206A16448ABC00336C42 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CF205C16448ABC00336C42 /* SystemConfiguration.framework */; };
+		74CF206C16448AF500336C42 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CF206B16448AF500336C42 /* Parse.framework */; };
+		74CF206F16448B4500336C42 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CF206E16448B4500336C42 /* AdSupport.framework */; };
+		74CF208116448C1500336C42 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CF207416448C1500336C42 /* Icon-72.png */; };
+		74CF208216448C1500336C42 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CF207516448C1500336C42 /* Icon-72@2x.png */; };
+		74CF208316448C1500336C42 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CF207616448C1500336C42 /* Icon-Small-50.png */; };
+		74CF208416448C1500336C42 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CF207716448C1500336C42 /* Icon-Small-50@2x.png */; };
+		74CF208516448C1500336C42 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CF207816448C1500336C42 /* Icon-Small.png */; };
+		74CF208616448C1500336C42 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CF207916448C1500336C42 /* Icon-Small@2x.png */; };
+		74CF208716448C1500336C42 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CF207A16448C1500336C42 /* Icon.png */; };
+		74CF208816448C1500336C42 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CF207B16448C1500336C42 /* Icon@2x.png */; };
+		74CF208916448C1500336C42 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CF207C16448C1500336C42 /* iTunesArtwork.png */; };
+		74CF208A16448C1500336C42 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CF207D16448C1500336C42 /* iTunesArtwork@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74954F231644AF4200BA1AE7 /* AddFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriendViewController.h; sourceTree = "<group>"; };
+		74954F241644AF4200BA1AE7 /* AddFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriendViewController.m; sourceTree = "<group>"; };
+		74954F251644AF4200BA1AE7 /* AddFriendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddFriendViewController.xib; sourceTree = "<group>"; };
+		7497BF311648366500099152 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		7497BF341648366F00099152 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		7497BF361648367300099152 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		74CF2011164488FD00336C42 /* ParseTwilioCloudModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseTwilioCloudModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74CF2015164488FD00336C42 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		74CF2017164488FD00336C42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		74CF2019164488FD00336C42 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		74CF201D164488FD00336C42 /* ParseTwilioCloudModule-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParseTwilioCloudModule-Info.plist"; sourceTree = "<group>"; };
+		74CF201F164488FD00336C42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		74CF2021164488FD00336C42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74CF2023164488FD00336C42 /* ParseTwilioCloudModule-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParseTwilioCloudModule-Prefix.pch"; sourceTree = "<group>"; };
+		74CF2024164488FD00336C42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74CF2025164488FD00336C42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74CF204C16448A5B00336C42 /* FriendsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsTableViewController.h; sourceTree = "<group>"; };
+		74CF204D16448A5B00336C42 /* FriendsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsTableViewController.m; sourceTree = "<group>"; };
+		74CF204F16448ABC00336C42 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		74CF205016448ABC00336C42 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		74CF205116448ABC00336C42 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		74CF205216448ABC00336C42 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		74CF205316448ABC00336C42 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		74CF205416448ABC00336C42 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		74CF205516448ABC00336C42 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		74CF205616448ABC00336C42 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		74CF205716448ABC00336C42 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		74CF205816448ABC00336C42 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		74CF205916448ABC00336C42 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		74CF205A16448ABC00336C42 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		74CF205B16448ABC00336C42 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		74CF205C16448ABC00336C42 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		74CF206B16448AF500336C42 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = SOURCE_ROOT; };
+		74CF206E16448B4500336C42 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		74CF207416448C1500336C42 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		74CF207516448C1500336C42 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		74CF207616448C1500336C42 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		74CF207716448C1500336C42 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		74CF207816448C1500336C42 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		74CF207916448C1500336C42 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		74CF207A16448C1500336C42 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		74CF207B16448C1500336C42 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		74CF207C16448C1500336C42 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		74CF207D16448C1500336C42 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74CF200E164488FD00336C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CF206F16448B4500336C42 /* AdSupport.framework in Frameworks */,
+				74CF205D16448ABC00336C42 /* Accounts.framework in Frameworks */,
+				74CF205E16448ABC00336C42 /* AddressBook.framework in Frameworks */,
+				74CF205F16448ABC00336C42 /* AddressBookUI.framework in Frameworks */,
+				74CF206016448ABC00336C42 /* AudioToolbox.framework in Frameworks */,
+				74CF206116448ABC00336C42 /* CFNetwork.framework in Frameworks */,
+				74CF206216448ABC00336C42 /* CoreLocation.framework in Frameworks */,
+				74CF206316448ABC00336C42 /* libsqlite3.dylib in Frameworks */,
+				74CF206416448ABC00336C42 /* libz.1.1.3.dylib in Frameworks */,
+				74CF206516448ABC00336C42 /* MobileCoreServices.framework in Frameworks */,
+				74CF206616448ABC00336C42 /* QuartzCore.framework in Frameworks */,
+				74CF206716448ABC00336C42 /* Security.framework in Frameworks */,
+				74CF206816448ABC00336C42 /* Social.framework in Frameworks */,
+				74CF206916448ABC00336C42 /* StoreKit.framework in Frameworks */,
+				74CF206A16448ABC00336C42 /* SystemConfiguration.framework in Frameworks */,
+				74CF201A164488FD00336C42 /* CoreGraphics.framework in Frameworks */,
+				74CF2016164488FD00336C42 /* UIKit.framework in Frameworks */,
+				74CF2018164488FD00336C42 /* Foundation.framework in Frameworks */,
+				74CF206C16448AF500336C42 /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74CF2006164488FD00336C42 = {
+			isa = PBXGroup;
+			children = (
+				74CF201B164488FD00336C42 /* ParseTwilioCloudModule */,
+				74CF2014164488FD00336C42 /* Frameworks */,
+				74CF2012164488FD00336C42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74CF2012164488FD00336C42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74CF2011164488FD00336C42 /* ParseTwilioCloudModule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74CF2014164488FD00336C42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74CF206B16448AF500336C42 /* Parse.framework */,
+				74CF204F16448ABC00336C42 /* Accounts.framework */,
+				74CF206E16448B4500336C42 /* AdSupport.framework */,
+				74CF205016448ABC00336C42 /* AddressBook.framework */,
+				74CF205116448ABC00336C42 /* AddressBookUI.framework */,
+				74CF205216448ABC00336C42 /* AudioToolbox.framework */,
+				74CF205316448ABC00336C42 /* CFNetwork.framework */,
+				74CF205416448ABC00336C42 /* CoreLocation.framework */,
+				74CF205516448ABC00336C42 /* libsqlite3.dylib */,
+				74CF205616448ABC00336C42 /* libz.1.1.3.dylib */,
+				74CF205716448ABC00336C42 /* MobileCoreServices.framework */,
+				74CF205816448ABC00336C42 /* QuartzCore.framework */,
+				74CF205916448ABC00336C42 /* Security.framework */,
+				74CF205A16448ABC00336C42 /* Social.framework */,
+				74CF205B16448ABC00336C42 /* StoreKit.framework */,
+				74CF205C16448ABC00336C42 /* SystemConfiguration.framework */,
+				74CF2015164488FD00336C42 /* UIKit.framework */,
+				74CF2017164488FD00336C42 /* Foundation.framework */,
+				74CF2019164488FD00336C42 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74CF201B164488FD00336C42 /* ParseTwilioCloudModule */ = {
+			isa = PBXGroup;
+			children = (
+				74CF2024164488FD00336C42 /* AppDelegate.h */,
+				74CF2025164488FD00336C42 /* AppDelegate.m */,
+				74CF204C16448A5B00336C42 /* FriendsTableViewController.h */,
+				74CF204D16448A5B00336C42 /* FriendsTableViewController.m */,
+				74954F231644AF4200BA1AE7 /* AddFriendViewController.h */,
+				74954F241644AF4200BA1AE7 /* AddFriendViewController.m */,
+				74954F251644AF4200BA1AE7 /* AddFriendViewController.xib */,
+				74CF207016448C1500336C42 /* Artwork */,
+				74CF201C164488FD00336C42 /* Supporting Files */,
+			);
+			path = ParseTwilioCloudModule;
+			sourceTree = "<group>";
+		};
+		74CF201C164488FD00336C42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74CF201D164488FD00336C42 /* ParseTwilioCloudModule-Info.plist */,
+				74CF201E164488FD00336C42 /* InfoPlist.strings */,
+				74CF2021164488FD00336C42 /* main.m */,
+				74CF2023164488FD00336C42 /* ParseTwilioCloudModule-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74CF207016448C1500336C42 /* Artwork */ = {
+			isa = PBXGroup;
+			children = (
+				7497BF361648367300099152 /* Default.png */,
+				7497BF341648366F00099152 /* Default@2x.png */,
+				7497BF311648366500099152 /* Default-568h@2x.png */,
+				74CF207416448C1500336C42 /* Icon-72.png */,
+				74CF207516448C1500336C42 /* Icon-72@2x.png */,
+				74CF207616448C1500336C42 /* Icon-Small-50.png */,
+				74CF207716448C1500336C42 /* Icon-Small-50@2x.png */,
+				74CF207816448C1500336C42 /* Icon-Small.png */,
+				74CF207916448C1500336C42 /* Icon-Small@2x.png */,
+				74CF207A16448C1500336C42 /* Icon.png */,
+				74CF207B16448C1500336C42 /* Icon@2x.png */,
+				74CF207C16448C1500336C42 /* iTunesArtwork.png */,
+				74CF207D16448C1500336C42 /* iTunesArtwork@2x.png */,
+			);
+			name = Artwork;
+			path = ../Artwork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74CF2010164488FD00336C42 /* ParseTwilioCloudModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74CF202F164488FD00336C42 /* Build configuration list for PBXNativeTarget "ParseTwilioCloudModule" */;
+			buildPhases = (
+				74CF200D164488FD00336C42 /* Sources */,
+				74CF200E164488FD00336C42 /* Frameworks */,
+				74CF200F164488FD00336C42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParseTwilioCloudModule;
+			productName = ParseTwilioCloudModule;
+			productReference = 74CF2011164488FD00336C42 /* ParseTwilioCloudModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74CF2008164488FD00336C42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Parse;
+			};
+			buildConfigurationList = 74CF200B164488FD00336C42 /* Build configuration list for PBXProject "ParseTwilioCloudModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 74CF2006164488FD00336C42;
+			productRefGroup = 74CF2012164488FD00336C42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74CF2010164488FD00336C42 /* ParseTwilioCloudModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74CF200F164488FD00336C42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CF2020164488FD00336C42 /* InfoPlist.strings in Resources */,
+				74CF208116448C1500336C42 /* Icon-72.png in Resources */,
+				74CF208216448C1500336C42 /* Icon-72@2x.png in Resources */,
+				74CF208316448C1500336C42 /* Icon-Small-50.png in Resources */,
+				74CF208416448C1500336C42 /* Icon-Small-50@2x.png in Resources */,
+				74CF208516448C1500336C42 /* Icon-Small.png in Resources */,
+				74CF208616448C1500336C42 /* Icon-Small@2x.png in Resources */,
+				74CF208716448C1500336C42 /* Icon.png in Resources */,
+				74CF208816448C1500336C42 /* Icon@2x.png in Resources */,
+				74CF208916448C1500336C42 /* iTunesArtwork.png in Resources */,
+				74CF208A16448C1500336C42 /* iTunesArtwork@2x.png in Resources */,
+				74954F271644AF4200BA1AE7 /* AddFriendViewController.xib in Resources */,
+				7497BF321648366500099152 /* Default-568h@2x.png in Resources */,
+				7497BF351648366F00099152 /* Default@2x.png in Resources */,
+				7497BF371648367300099152 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74CF200D164488FD00336C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CF2022164488FD00336C42 /* main.m in Sources */,
+				74CF2026164488FD00336C42 /* AppDelegate.m in Sources */,
+				74CF204E16448A5B00336C42 /* FriendsTableViewController.m in Sources */,
+				74954F261644AF4200BA1AE7 /* AddFriendViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74CF201E164488FD00336C42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74CF201F164488FD00336C42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74CF202D164488FD00336C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74CF202E164488FD00336C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74CF2030164488FD00336C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParseTwilioCloudModule/ParseTwilioCloudModule-Prefix.pch";
+				INFOPLIST_FILE = "ParseTwilioCloudModule/ParseTwilioCloudModule-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		74CF2031164488FD00336C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParseTwilioCloudModule/ParseTwilioCloudModule-Prefix.pch";
+				INFOPLIST_FILE = "ParseTwilioCloudModule/ParseTwilioCloudModule-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74CF200B164488FD00336C42 /* Build configuration list for PBXProject "ParseTwilioCloudModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74CF202D164488FD00336C42 /* Debug */,
+				74CF202E164488FD00336C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74CF202F164488FD00336C42 /* Build configuration list for PBXNativeTarget "ParseTwilioCloudModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74CF2030164488FD00336C42 /* Debug */,
+				74CF2031164488FD00336C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74CF2008164488FD00336C42 /* Project object */;
+}
