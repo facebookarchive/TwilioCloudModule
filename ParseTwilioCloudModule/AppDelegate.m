@@ -3,7 +3,6 @@
 //  ParseTwilioCloudModule
 //
 //  Created by Mattieu Gamache-Asselin on 10/25/12.
-//  Copyright (c) 2012 Parse Inc. All rights reserved.
 //
 
 #import "AppDelegate.h"
